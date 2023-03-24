@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
   return {
     // to fix cors error, just need to add headers
     headers: {
-      "Access-Control-Allow_Origin": "*",
+      "Access-Control-Allow-Origin": "*",
     },
     statusCode: 200,
     body: JSON.stringify(data),
